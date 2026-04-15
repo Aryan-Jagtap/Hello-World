@@ -1,6 +1,6 @@
 node {
     stage('Clone Repository') {
-        git branch: 'main',
+        git branch: 'master',
             url: 'https://github.com/Aryan-Jagtap/Hello-World.git'
     }
 
